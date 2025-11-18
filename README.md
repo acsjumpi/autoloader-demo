@@ -44,7 +44,7 @@ This demo project shows how to:
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                         Source Data                                 │
-│     Unity Catalog Volume: /Volumes/.../raw/events/                 │
+│     Unity Catalog Volume: /Volumes/.../raw/events/                  │
 │                 (JSON files arrive incrementally)                   │
 └────────────────────────┬────────────────────────────────────────────┘
                          │
