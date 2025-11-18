@@ -1,0 +1,8 @@
+# configs/dev.yaml
+source_url: "/Volumes/acs/autoloader/autoloader_demo/raw/events/"
+checkpoint_path: "/Volumes/acs/autoloader/autoloader_demo/checkpoints/autoloader_demo"
+target_table: "acs.autoloader.raw_events"
+file_format: "json"                         # json, csv, parquet, xml, avro
+detection_mode: "directory"                 # directory | useNotifications | fileEvents
+infer_column_types: true                    # typed inference for json/csv/xml
+schema_evolution_mode: "addNewColumns"      # addNewColumns | rescue | none | failOnNewColumns
